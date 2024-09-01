@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
+
+/* Define general styles for the body  */
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif; /* Use Quicksand font */
+  background: linear-gradient(
+    135deg,
+    #1c92d2,
+    #f2fcfe
+  ); /* Gradient background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Define styles for all heading elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif; /* Use Quicksand font for headings */
+  color: #333;
+}
+
+/* Define styles for all paragraph elements */
+p {
+  color: #444;
+}

@@ -1,0 +1,15 @@
+/* progress-circle.css */
+.progress-circle-path {
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.progress-circle {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

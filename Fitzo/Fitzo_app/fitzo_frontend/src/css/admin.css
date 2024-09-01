@@ -1,0 +1,103 @@
+/* General styling of the adminpage */
+.admin-page-container {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  width: 90%;
+  max-height: 80%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.current-users-container {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling of the admin login box for django */
+.admin-login-box {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #113079;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.admin-login-box h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.admin-login-box p {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.admin-login-box button {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Styling of the list attributes and components */
+.user-list-container {
+  margin-top: 20px;
+  margin-right: 60%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: 90%;
+}
+
+.user-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list-container li {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.button-container button {
+  background-color: #113079;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 6px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info .user-container {
+  flex-grow: 1;
+}

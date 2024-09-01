@@ -1,0 +1,87 @@
+/* Styling for the general profile page and information */
+
+.profile-container {
+  max-width: 800px;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #113079;
+  border-radius: 6px;
+}
+
+.profile-container h1 {
+  color: white;
+  padding: 1% 0% 5% 0%;
+  font-size: 24px;
+  text-align: center;
+}
+
+.profile-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.profile-form label {
+  font-weight: bold;
+  color: white;
+}
+
+/* Styling profile page buttons*/
+.profile-form button {
+  grid-column: span 2;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-form button:hover {
+  background-color: #0056b3;
+}
+
+.profile-form input,
+.profile-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profile-form input:focus,
+.profile-form select:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.profile-form select {
+  height: 46px;
+}
+
+.profile-form label {
+  display: block;
+  margin-bottom: 7px;
+  color: white;
+  font-weight: bold;
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.profile-buttons button {
+  padding: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-buttons button:hover {
+  background-color: #c82333;
+}
