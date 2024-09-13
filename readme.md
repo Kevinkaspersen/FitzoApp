@@ -81,3 +81,5 @@ python manage.py makemigrations
 ```zsh
 python manage.py migrate
 ```
+
+Authors: Kevin Klefsås, Henrik Norhus, Ask Thommassen, Pål Kristoffersen and Ludvig Hellesvik
